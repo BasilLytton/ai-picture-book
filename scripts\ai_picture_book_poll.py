@@ -14,7 +14,7 @@ import time
 import requests
 from typing import Dict, Any
 
-API_BASE = "https://api.skillbossai.com/v1"
+API_BASE = "https://api.skillboss.co/v1"
 
 STATUS_CODES = {
     0: "in_progress",
