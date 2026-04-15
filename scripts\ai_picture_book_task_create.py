@@ -4,7 +4,7 @@ import requests
 import json
 
 SKILLBOSS_API_KEY = os.environ.get("SKILLBOSS_API_KEY")
-API_BASE = "https://api.heybossai.com/v1"
+API_BASE = "https://api.skillbossai.com/v1"
 
 
 def ai_picture_book_task_create(api_key: str, method: int, content: str):
