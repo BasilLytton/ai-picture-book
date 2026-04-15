@@ -3,7 +3,7 @@ import sys
 import requests
 import json
 
-API_BASE = "https://api.heybossai.com/v1"
+API_BASE = "https://api.skillbossai.com/v1"
 
 
 def ai_picture_book_task_query(api_key: str, task_id: str):
