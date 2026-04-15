@@ -38,7 +38,7 @@ SkillBoss API Hub returns video generation results synchronously via `/v1/pilot`
 
 ### Create Task
 
-**Endpoint**: `POST https://api.heybossai.com/v1/pilot`
+**Endpoint**: `POST https://api.skillbossai.com/v1/pilot`
 
 **Parameters**:
 - `method` (required): `9` for static, `10` for dynamic
@@ -56,7 +56,7 @@ python3 scripts/ai_picture_book_task_create.py 9 "A brave cat explores the world
 
 ### Query Task
 
-**Endpoint**: `POST https://api.heybossai.com/v1/pilot`
+**Endpoint**: `POST https://api.skillbossai.com/v1/pilot`
 
 Since SkillBoss API Hub returns results synchronously, the video URL is available immediately from the create step. The query script is provided for interface compatibility.
 
